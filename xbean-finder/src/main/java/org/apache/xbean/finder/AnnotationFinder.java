@@ -143,7 +143,9 @@ public class AnnotationFinder implements IAnnotationFinder {
 
         for (Archive.Entry entry : archive) {
             final String className = entry.getName();
+            if (className.equals("module-info") || className.startsWith("META-INF.versions.9")) continue;
             try {
+                System.out.println(className + ";" + archive.toString());
                 readClassDef(entry.getBytecode());
             } catch (NoClassDefFoundError e) {
                 throw new NoClassDefFoundError("Could not fully load class: " + className + "\n due to:" + e.getMessage());
