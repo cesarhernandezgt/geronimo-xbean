@@ -143,13 +143,19 @@ public class AnnotationFinder implements IAnnotationFinder {
 
         for (Archive.Entry entry : archive) {
             final String className = entry.getName();
-            try {
-                readClassDef(entry.getBytecode());
-            } catch (NoClassDefFoundError e) {
-                throw new NoClassDefFoundError("Could not fully load class: " + className + "\n due to:" + e.getMessage());
-            } catch (IOException e) {
-                e.printStackTrace();
+            //Ignoring module-info.class from Jars compiled with Java 9+
+            if (!className.equalsIgnoreCase("module-info") &&
+                !className.equalsIgnoreCase("META-INF.versions.9.module-info")) {
+                try {
+                    readClassDef(entry.getBytecode());
+                } catch (NoClassDefFoundError e) {
+                    throw new NoClassDefFoundError(
+                            "Could not fully load class: " + className + "\n due to:" + e.getMessage());
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
+
         }
 
         // keep track of what was originally from the archives
