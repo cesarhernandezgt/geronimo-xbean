@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/maven-xbean-plugin/src/main/filtered-resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-xbean-plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maven-xbean-plugin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/filtered-resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-asm-util/src/main/filtered-resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-asm-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-asm-util/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-asm5-shaded/src/main/filtered-resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-asm5-shaded/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-asm5-shaded/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-blueprint/src/main/filtered-resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-blueprint/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-blueprint/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-bundleutils/src/main/filtered-resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-bundleutils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-bundleutils/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-classloader/src/main/filtered-resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-classloader/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-classloader/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-classpath/src/main/filtered-resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-classpath/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-classpath/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-finder-shaded/src/main/filtered-resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-finder-shaded/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-finder-shaded/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-finder/src/main/filtered-resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-finder/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-finder/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-naming/src/main/filtered-resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-naming/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-naming/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-reflect/src/main/filtered-resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-reflect/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-reflect/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-spring/src/main/filtered-resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-spring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-telnet/src/main/filtered-resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-telnet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xbean-telnet/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

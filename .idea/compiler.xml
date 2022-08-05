@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xbean-telnet" />
+        <module name="xbean-spring" />
+        <module name="maven-xbean-plugin" />
+        <module name="xbean-classpath" />
+        <module name="xbean-finder-shaded" />
+        <module name="xbean-finder" />
+        <module name="xbean-asm5-shaded" />
+        <module name="xbean-asm-util" />
+        <module name="xbean-classloader" />
+        <module name="xbean-blueprint" />
+        <module name="xbean-bundleutils" />
+        <module name="xbean-reflect" />
+        <module name="xbean-naming" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
