@@ -1,3 +1,4 @@
 /.idea/
 target/
-
+xbean-finder-shaded/dependency-reduced-pom.xml
+xbean-asm5-shaded/dependency-reduced-pom.xml
